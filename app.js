@@ -1,6 +1,5 @@
-    module.exports = {capitalize}
-    module.exports = {reverse};
-    module.exports = {contains};
+const stringUtils = require('./stringUtils');
 
-const str = require('./stringUtils')
-console.log(this.capitalize("hello"));
+console.log(stringUtils.capitalize("hello", "cat", "bike"));
+console.log(stringUtils.reverseStr("hello", "cat", "bike"));
+console.log(stringUtils.contains("hello", "cat", "bike"));
